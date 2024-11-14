@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	height: 585px;
+}
+.item2 {
+	width: 350px;
+}
+.item3 {
+	align-self: flex-start;
+	width: 1300px;
+}
+.item4 {
+	align-self: flex-end;
+}
+.item5 {
+	align-self: flex-end;
+	flex: 1;
+	height: 450px;
+}
+.containerRightSide{
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.containerRightSideBottom{
+	display: flex;
+	gap: 10px;
+}
